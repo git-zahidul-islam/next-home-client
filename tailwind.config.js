@@ -11,13 +11,16 @@
 //     require('daisyui'),
 //   ],
 // }
-module.exports = {
+import forms from '@tailwindcss/forms';
+
+export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [forms],
 };
+
 
 
 
